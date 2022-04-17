@@ -4,6 +4,7 @@ const About = () => {
     return (
         <div className='container'>
             <h1>My Web Develop Journey</h1>
+            <small>write a small paragraph (3-5 lines) about your goal. And how you will work hard to achieve your goal</small>
             <p>when I would visit any website first time I said wow how it possible many many complex fucntionality </p>
         </div>
     );
