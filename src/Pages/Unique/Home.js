@@ -1,14 +1,10 @@
 import React from 'react';
+import Service from '../../component/Service';
 
 const Home = () => {
     return (
         <div className='container'>
-            <div>
-                <h1>Welcome To Fiitness Park</h1>
-            </div>
-            <dir>
-                <h1>Services</h1>
-            </dir>
+        <Service></Service>
         </div>
     );
 };

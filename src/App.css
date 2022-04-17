@@ -39,7 +39,7 @@ a{
     height:50px ;
 }
 .active{
-    background-color: orangered;
+    background-color: #00cbcb;
     color: #fff;
 }
 .link{
@@ -54,4 +54,23 @@ input{
     margin: 10px;
     padding: 5px;
     font-size: 16px;
+}
+.card{
+    border: 1px solid gray;
+    width: 250px;
+    padding: 40px; 
+}
+.card h2,h3{
+margin:15px 0;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.checklink{
+    background-color: grey;
 }
