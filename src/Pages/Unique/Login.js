@@ -4,13 +4,15 @@ import { Link } from 'react-router-dom';
 const Login = () => {
     return (
         <div className='container'>
-            <h1>Please Login</h1>
+            
             <form >
-                <input type="email" name="" id="" /><br />
-                <input type="password" name="" id="" /><br />
-                <input type="submit" value="Sign Up" /><br />
+            <h1>Login Here</h1>
+                <input type="email" name="" id="" placeholder='Your Email' required/><br />
+                <input type="password" name="" id="" placeholder='Your Password' required/><br />
+                <input type="submit" value="Log In" /><br />
+                <Link style={{color:'grey'}} to='/sign-up'><small>Create An Account</small></Link>
             </form>
-            <Link to='/sign-up'>Create An Account</Link>
+            
         </div>
     );
 };

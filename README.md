@@ -1,6 +1,6 @@
 # Fitness Park 
 
-### This is my third react project with vanila css you can visit [fitnesspark](https://techreview.netlify.app/).
+### This is my third react project with vanila css you can visit [fitnesspark](https://fitnesspark.netlify.app/).
 
 ## Features
 
