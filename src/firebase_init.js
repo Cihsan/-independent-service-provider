@@ -6,12 +6,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDc0Kr_9RaUjDQjVA5US4oVMFZVZsEHUv4",
-  authDomain: "fitness-park-508a8.firebaseapp.com",
-  projectId: "fitness-park-508a8",
-  storageBucket: "fitness-park-508a8.appspot.com",
-  messagingSenderId: "204437086749",
-  appId: "1:204437086749:web:0ad19d5105d25c15dc9cf4"
+  apiKey: "AIzaSyBDyyTCeCixRnP4GoN7_O9s6P7SCugV4OM",
+  authDomain: "electrical-solution-e0837.firebaseapp.com",
+  projectId: "electrical-solution-e0837",
+  storageBucket: "electrical-solution-e0837.appspot.com",
+  messagingSenderId: "593635801438",
+  appId: "1:593635801438:web:608f3b18852c1c27c577cf"
 };
 
 // Initialize Firebase

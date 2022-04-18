@@ -1,7 +1,7 @@
-# Fitness Park 
+# Electrial Solution 
 
-### This is my third react project with vanila css you can visit [fitnesspark](https://fitness-park-508a8.web.app/).
-### This is my third react project with vanila css you can visit [fitnesspark](fitnesspark.netlify.app/).
+### This is my third react project with vanila css you can visit [Electrial Solution](https://fitness-park-508a8.web.app/).
+### This is my third react project with vanila css you can visit [Electrial Solution](fitnesspark.netlify.app/).
 
 ## Features
 
