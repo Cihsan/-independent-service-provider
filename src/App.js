@@ -1,14 +1,15 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+
+import About from './Pages/About/About';
+import Blogs from './Pages/Blogs/Blogs';
+import Checkout from './Pages/Checkout/Checkout';
+import Home from './Pages/Home/Home';
+import Login from './Pages/Login/Login';
+import RequireAuth from './Pages/Login/RequireAuth';
+import SignUp from './Pages/Login/SignUp';
+import NotFound from './Pages/NotFound/NotFound';
 import Header from './Pages/Shared/Header';
-import About from './Pages/Unique/About';
-import Blogs from './Pages/Unique/Blogs';
-import Checkout from './Pages/Unique/Checkout';
-import Home from './Pages/Unique/Home';
-import Login from './Pages/Unique/Login';
-import NotFound from './Pages/Unique/NotFound';
-import SignUp from './Pages/Unique/SignUp';
-import RequireAuth from './RequireAuth';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
         <Route path='/blogs' element={<RequireAuth><Blogs></Blogs></RequireAuth>}></Route>
 
         <Route path='/checkout' element={<RequireAuth><Checkout></Checkout></RequireAuth>}></Route>
-        
+
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/sign-up' element={<SignUp></SignUp>}></Route>
         <Route path='/*' element={<NotFound></NotFound>}></Route>

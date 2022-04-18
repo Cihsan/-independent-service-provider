@@ -28,7 +28,7 @@ nav{
 }
 .navbar{
     background-color: #303442;
-    height: 100px;
+    height: 100%;
     width: 100%;
 }
 
@@ -42,6 +42,17 @@ nav{
     background-size: cover; 
     height: 450px;
     width: 100%;
+}
+.banner-text{
+    background-color: #303442;
+    opacity: 50%;
+    height: 450px;
+}
+.banner-text>h1{
+    color: #fff;
+    z-index: 1;
+    text-align: center;
+    padding-top: 200px;
 }
 /* .overlay{
     background: rgb(0, 0, 0);
@@ -104,6 +115,10 @@ input[type=submit]:hover{
     width: 250px;
     padding: 40px; 
 }
+.card:hover{
+    background-color: #303442;
+    color: #fff;
+}
 .card h2,h3{
 margin:15px 0;
 }
@@ -114,14 +129,16 @@ margin:15px 0;
     align-items: center;
     gap: 20px;
 }
+.services{
+    align-items: center;
+}
 
-.checklink{
+.checkOut{
     background-color: grey;
 }
-.checklink:hover{
-    background-color: transparent;
-    border: 1px solid #00cbcb;
-    color: #303442;
+.checkOut:hover{
+    background-color: #00cbcb;
+    color: #fff;
 }
 /* blogs */
 article{
@@ -148,6 +165,10 @@ article>p{
 .brandColor{
     color:#00cbcb;
 }
+
+.text-error{
+    color: red;
+}
 @media only screen and (max-width: 768px) {
     .container{
         width: 100%;
@@ -157,8 +178,6 @@ article>p{
         justify-content: center;
     }
     .banner{
-        width: 100%;
-        height: auto;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -177,7 +196,6 @@ article>p{
     .navbar{
         background-color: #303442;
         height: 150px;
-        
     }
     a{
         margin: 5px;

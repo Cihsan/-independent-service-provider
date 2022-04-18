@@ -1,6 +1,6 @@
 import React from 'react';
-import Service from '../../component/Service';
-import Banner from '../../component/Banner';
+import Service from '../../Pages/Home/Services';
+import Banner from '../../Pages/Home/Banner';
 
 const Home = () => {
     return (
