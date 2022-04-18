@@ -1,6 +1,7 @@
 import React from 'react';
 import Service from '../../Pages/Home/Services';
 import Banner from '../../Pages/Home/Banner';
+import Footer from '../Shared/Footer';
 
 const Home = () => {
     return (
@@ -8,6 +9,8 @@ const Home = () => {
             <Banner></Banner>
             <div className='container'>
             <Service></Service>
+            <Footer></Footer>
+
             </div>
         </div>
     );

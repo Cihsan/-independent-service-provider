@@ -177,8 +177,13 @@ article>p{
     background-color: transparent;
     border:1px solid #00cbcb;
 }
-
-
+footer{
+    height:50px ;
+    background-color: #303442;
+}
+.service{
+    margin-bottom: 20px;
+}
 @media only screen and (max-width: 768px) {
     .container{
         width: 100%;
