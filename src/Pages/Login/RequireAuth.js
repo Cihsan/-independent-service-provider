@@ -7,7 +7,7 @@ const RequireAuth = ({children}) => {
     const [user, loading] = useAuthState(auth);
     let location = useLocation();
     if(loading){
-        return <p>Loading...</p>
+        return <h1>Loading...</h1>
     }
     if (user) {
         return children;
