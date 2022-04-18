@@ -1,9 +1,11 @@
 import React, { useRef} from 'react';
 import { useCreateUserWithEmailAndPassword, useSignInWithGithub, useSignInWithGoogle, useUpdateProfile } from 'react-firebase-hooks/auth';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase_init';
 
 const SignUp = () => {
+    const location = useLocation();
+    let from = location.state?.from?.pathname || "/";
     /* Social Login */
     const navigate = useNavigate();
     const [logInWithGoogle,userGoogle,loadingGoogle,errorGoogle] = useSignInWithGoogle(auth);
@@ -26,7 +28,7 @@ const SignUp = () => {
         errortext = <small className='text-error'>{errorGoogle?.message} {errorGithub?.message}</small>}
 
     if (userGoogle || userGithub ||userNewEmail ||updating) {
-        navigate('/home');
+        navigate(from, { replace: true });
     }
     /* Error End */
    

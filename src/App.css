@@ -177,9 +177,14 @@ article>p{
     background-color: transparent;
     border:1px solid #00cbcb;
 }
-footer{
-    height:50px ;
+.footer{
+    height: 50px;
     background-color: #303442;
+}
+.footer>p {
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
 }
 .service{
     margin-bottom: 20px;
