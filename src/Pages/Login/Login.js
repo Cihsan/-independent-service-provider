@@ -31,7 +31,7 @@ const Login = () => {
 
     let errortext;
     if (errorGoogle || errorGithub || emailPasswordLoginError) {
-        errortext = <small className='text-error'>{errorGoogle?.message} {errorGithub?.message}</small>}
+        errortext = <small className='text-error'>{errorGoogle?.message} {errorGithub?.message}{emailPasswordLoginError?.message}</small>}
 
     /* Error End */
 
@@ -42,8 +42,6 @@ const Login = () => {
         const email=refEmail.current.value
         const password=refPassword.current.value
         await emailPasswordLogin(email,password)
-        //console.log(email,password);
-        //emailPasswordLogin(email,password)
     }
     const resetPassword = async () => {
         const email = refEmail.current.value;
