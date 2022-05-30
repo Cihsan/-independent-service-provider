@@ -118,6 +118,7 @@ input[type=submit]:hover{
 .card:hover{
     background-color: #303442;
     color: #fff;
+    
 }
 .card h2,h3{
 margin:15px 0;
@@ -180,14 +181,18 @@ article>p{
 .footer{
     height: 50px;
     background-color: #303442;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    margin-top: 20px;
 }
 .footer>p {
     text-align: center;
     color: #fff;
-    padding-top: 20px;
+    
 }
 .service{
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 @media only screen and (max-width: 768px) {
     .container{
