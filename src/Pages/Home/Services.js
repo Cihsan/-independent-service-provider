@@ -22,7 +22,7 @@ const Service = () => {
                     <p><span className="brandColor">✓</span> Switching</p>
                     <p><span className="brandColor">✓</span> Safety Ensuring</p>
                     <h3>$100</h3>
-                    <Link className='checklink' to='/checkout'>Place Order</Link>
+                    <Link className='checklink' to='/checkout'>Check Now</Link>
                 </div>
                 <div className="card">
                     <div><img style={{borderRadius:'50%',width:'100px',height:'100px'}} src={img2} alt="" /></div>
@@ -33,7 +33,7 @@ const Service = () => {
                     <p><span className="brandColor">✓</span> Switching</p>
                     <p><span className="brandColor">✓</span> Safety Ensuring</p>
                     <h3>$120</h3>
-                    <Link className='checklink' to='/checkout'>Place Order</Link>
+                    <Link className='checklink' to='/checkout'>Check Now</Link>
                 </div>
                 <div className="card">
                     <div><img style={{borderRadius:'50%',width:'100px',height:'100px'}} src={img3} alt="" /></div>
@@ -44,7 +44,7 @@ const Service = () => {
                     <p><span className="brandColor">✓</span> Switching</p>
                     <p><span className="brandColor">✓</span> Safety Ensuring</p>
                     <h3>$150</h3>
-                    <Link className='checklink' to='/checkout'>Place Order</Link>
+                    <Link className='checklink' to='/checkout'>Check Now</Link>
                 </div>
                 <div className="card">
                 <div><img style={{borderRadius:'50%',width:'100px',height:'100px'}} src={img4} alt="" /></div>
@@ -55,7 +55,7 @@ const Service = () => {
                     <p><span className="brandColor">✓</span> Switching</p>
                     <p><span className="brandColor">✓</span> Safety Ensuring</p>
                     <h3>$150</h3>
-                    <Link className='checklink' to='/checkout'>Place Order</Link>
+                    <Link className='checklink' to='/checkout'>Check Now</Link>
                 </div>
                 <div className="card">
                     <div><img style={{borderRadius:'50%',width:'100px',height:'100px'}} src={img3} alt="" /></div>
@@ -66,7 +66,7 @@ const Service = () => {
                     <p><span className="brandColor">✓</span> Switching</p>
                     <p><span className="brandColor">✓</span> Safety Ensuring</p>
                     <h3>$200</h3>
-                    <Link className='checklink' to='/checkout'>Place Order</Link>
+                    <Link className='checklink' to='/checkout'>Check Now</Link>
                 </div>
                 <div className="card">
                     <div><img style={{borderRadius:'50%',width:'100px',height:'100px'}} src={img5} alt="" /></div>
@@ -77,7 +77,7 @@ const Service = () => {
                     <p><span className="brandColor">✓</span> Switching</p>
                     <p><span className="brandColor">✓</span> Safety Ensuring</p>
                     <h3>$250</h3>
-                    <Link className='checklink' to='/checkout'>Place Order</Link>
+                    <Link className='checklink' to='/checkout'>Check Now</Link>
                 </div>
             </div>
         </div>

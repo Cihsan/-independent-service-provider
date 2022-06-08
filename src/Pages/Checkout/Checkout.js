@@ -1,9 +1,11 @@
 import React from 'react';
+import DeshBoard from './DeshBoard';
 
 const Checkout = () => {
+
     return (
-        <div className='container'>
-            <h1>This Is CheckOut</h1>
+        <div className='container'>        
+        <DeshBoard/>
         </div>
     );
 };

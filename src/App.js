@@ -4,12 +4,12 @@ import './App.css';
 import About from './Pages/About/About';
 import Blogs from './Pages/Blogs/Blogs';
 import Checkout from './Pages/Checkout/Checkout';
+import Review from './Pages/Checkout/Review';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
 import RequireAuth from './Pages/Login/RequireAuth';
 import SignUp from './Pages/Login/SignUp';
 import NotFound from './Pages/NotFound/NotFound';
-import Footer from './Pages/Shared/Footer';
 import Header from './Pages/Shared/Header';
 
 function App() {
@@ -25,11 +25,11 @@ function App() {
 
         <Route path='/checkout' element={<RequireAuth><Checkout></Checkout></RequireAuth>}></Route>
 
+        <Route path='/review' element={<Review/>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/sign-up' element={<SignUp></SignUp>}></Route>
         <Route path='/*' element={<NotFound></NotFound>}></Route>
       </Routes>
-      <Footer></Footer>
     </div>
   );
 }
