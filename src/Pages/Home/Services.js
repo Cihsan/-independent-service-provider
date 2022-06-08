@@ -11,7 +11,7 @@ const Service = () => {
     
     return (
         <div className='service'>
-            <h1>Services</h1>
+            <h1 style={{marginTop: '20px', marginBottom: '20px'}}>Services</h1>
             <div className='grid'>
                 <div className="card">
                     <div><img style={{borderRadius:'50%',width:'100px',height:'100px'}} src={img1} alt="" /></div>
